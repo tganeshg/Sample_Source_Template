@@ -39,4 +39,5 @@ clean:
 	@$(rm) $(OBJDIR)/*.o
 	@$(rm) $(BINDIR)/$(TARGET)
 	@echo $(OBJECTS)
+	@echo $(TARGET)
 	@echo "Cleanup complete!" 
